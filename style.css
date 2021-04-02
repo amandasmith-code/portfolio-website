@@ -1,0 +1,241 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+section {
+    background-color: whitesmoke;
+}
+
+.hero {
+    background-color: #0d2f4b;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    height: 500px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 810px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    margin: 0px;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+    color:#0d2f4b;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 40px;
+    margin-bottom: 200px;
+}
+
+.project-head {
+    color: white;
+}
+
+.experience-head {
+    color: white;
+}
+
+.certifications-head {
+    color: white;
+}
+
+.experience {
+    color: white;
+}
+
+.job-card p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.education-card p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.certifications-card p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    background-color: coral;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #ef744b;
+}
+
+.button:active {
+    background-color: darkgrey;
+    color: #808080;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.logo {
+    height: 75px;
+    margin: 10px;
+}
+
+.social {
+    margin: 10px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    background-color: whitesmoke;
+    width: 275px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    margin: 10px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+    background-color: #0d2f4b;
+}
+
+.sub-section-experience {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+    background-color: #0d2f4b;
+}
+
+.sub-section-education {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+    background-color: whitesmoke;
+}
+
+.sub-section-certifications {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: coral;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer p {
+    font-size: 15px;
+}
+
